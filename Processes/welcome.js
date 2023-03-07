@@ -28,17 +28,20 @@ module.exports = async (Miku, anu) => {
             metadata.subject
           }\n`
         );
-        mikutext = `
-Hello @${WAuserName.split("@")[0]} Senpai,
+        mikutext = `𝐇𝐞𝐥𝐥𝐨 @${WAuserName.split("@")[0]} 𝐒𝐞𝐧𝐩𝐚𝐢, 𝐈'𝐦 𝐌𝐢𝐤𝐮 𝐍𝐚𝐤𝐚𝐧𝐨✨
 
-Welcome to *${metadata.subject}*.
+╔═════════ ≪ °❈° ≫ ════════╗
 
-*🧣 Group Description 🧣*
+*𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐢𝐧* : *${metadata.subject}*
+
+╚═════════ ≪ °❈° ≫ ════════╝
+
+*🧣 Ｇ𝚁𝙾𝚄𝙿 Ｄ𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽 🧣*
 
 ${desc}
 
-*Thank You.*
-  `;
+*𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮.*
+`;
         if (WelcomeFeature == "true") {
           Miku.sendMessage(anu.id, {
             image: { url: ppuser },
@@ -59,9 +62,20 @@ ${desc}
             metadata.subject
           }\n`
         );
-        mikutext = `
-  @${WAuserName.split("@")[0]} Senpai left the group.
-  `;
+        mikutext = `@${WAuserName.split("@")[0]} *𝚂𝚎𝚗𝚙𝚊𝚒 𝙻𝚎𝚏𝚝 𝚃𝚑𝚎* *${metadata.subject}*.
+
+  *𝙰𝚗𝚘𝚝𝚑𝚎𝚛 𝚅𝚒𝚛𝚐𝚒𝚗 𝙻𝚎𝚏𝚝✨, 𝙱𝚞𝚝 𝚆𝚎 𝙰𝚛𝚎 𝙽𝚘𝚝 𝙶𝚘𝚒𝚗𝚐 𝚃𝚘 𝙼𝚒𝚜𝚜 𝚈𝚘𝚞 𝚃𝚑𝚘𝚞𝚐𝚑!🐧.*
+
+╭━━╮
+┃╭╮┃
+┃╰╯╰┳╮╱╭┳━━╮
+┃╭━╮┃┃╱┃┃┃━┫
+┃╰━╯┃╰━╯┃┃━┫
+╰━━━┻━╮╭┻━━╯
+╱╱╱╱╭━╯┃
+╱╱╱╱╰━━╯
+  
+`;
         if (WelcomeFeature == "true") {
           Miku.sendMessage(anu.id, {
             image: { url: ppuser },
