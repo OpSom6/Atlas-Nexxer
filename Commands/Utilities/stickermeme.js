@@ -17,8 +17,8 @@ module.exports = {
             meme = `https://api.memegen.link/images/custom/-/${text}.png?background=${mem}`
 
             let stickerMess = new Sticker(meme, {
-                pack: packname,
-                author: pushName,
+                pack: "Ｉ𝙽 𝙳 𝙴 𝙴 𝙳",
+                author: "𓄂⍣⃝🇳ᴇꪎꪎᴇʀ  ꢺᴀϻᴀ妥",
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
                 id: '12345',
